@@ -1,8 +1,6 @@
-package com.isilsubasi.mvvmretrorfit
+package com.isilsubasi.mvvmretrorfit.data.model
 
-import com.google.gson.annotations.SerializedName
-
-class UsersResponse : ArrayList<UsersResponse.UsersResponseItem>(){
+class UserResponse : ArrayList<UserResponse.UsersResponseItem>(){
     data class UsersResponseItem(
         val address: Address,
         val company: Company,

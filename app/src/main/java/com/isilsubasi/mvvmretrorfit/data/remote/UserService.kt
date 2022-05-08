@@ -1,6 +1,8 @@
-package com.isilsubasi.mvvmretrorfit
+package com.isilsubasi.mvvmretrorfit.data.remote
 
 
+import com.isilsubasi.mvvmretrorfit.data.model.UserResponse
+import com.isilsubasi.mvvmretrorfit.util.Constants
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Response
@@ -11,7 +13,7 @@ import retrofit2.http.GET
 interface UserService {
 
     @GET("users")
-    suspend fun getAllUsers(): Response<UsersResponse>
+    suspend fun getAllUsers(): Response<UserResponse>
 
     companion object  {
 

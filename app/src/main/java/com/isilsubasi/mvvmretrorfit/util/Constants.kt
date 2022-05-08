@@ -1,4 +1,4 @@
-package com.isilsubasi.mvvmretrorfit
+package com.isilsubasi.mvvmretrorfit.util
 
 object Constants {
 
